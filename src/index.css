@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about-me-div, .button-div {
+  padding: 0px 35px;
+}
+
+/* APP CONTAINER */
+.container {
+  width: 365px;
+  background-color: #1A1B21;
+  color: #DCDCDC;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* CONTACT */
+
+img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  color: #FFF;
+  font-weight: 500;
+  margin-top: 21px;
+}
+
+h3 {
+  color: #f3BF99;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+
+/* BUTTONS */
+
+.button-div {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.profile-linkedin {
+  background-color: #5093E2;
+  color: #DCDCDC;
+}
+
+.space {
+  margin-right: 3px;
+}
+
+/* ABOUT */
+
+.about-me, .intrests {
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%
+}
+
+.about-text, .intrests-text {
+  color: #DCDCDC;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%
+}
+
+.about-me {
+  margin-top: 33px;
+}
+
+.intrests {
+  margin-top: 22px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 24px;
+  width: 365px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.facebook-icon, .github-icon {
+  color: #918E9B
+}
+
+.facebook-icon:hover {
+  color: blue;
+  background-color: white;
+}
+
+.github-icon:hover {
+  color: purple;
+  background-color: white;
+}
